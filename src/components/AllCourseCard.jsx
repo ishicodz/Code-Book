@@ -33,6 +33,15 @@ import sql from "../assets/sql.png";
 import typescript from "../assets/typescript.png"
 import clojure from "../assets/clojure.png"
 import Card from "./Card";
+import Docker from "../assets/docker.png"
+import Graphql from "../assets/Graphql.png"
+import DSA from "../assets/dsa.png"
+import GitnGithub from "../assets/GitHub.png"
+import linux from "../assets/linux.png"
+import springboot from "../assets/springboot.png"
+import solid from "../assets/DesignPattern.png"
+import Kubernetes from "../assets/Kubernetes.png"
+
 
 function AllCourseCard({ searchTerm }) {
   const courses = [
@@ -91,6 +100,62 @@ function AllCourseCard({ searchTerm }) {
       authorname: "Alex Mux",
       ytlink: "https://youtu.be/8uiZC0l4Ajw?si=QXJnV58ksxBxVRLP", // Go Programming Tutorial
       gfgLink: "https://www.geeksforgeeks.org/go-programming-language/",
+    },
+    {
+      imgurl: GitnGithub,
+      coursename: "Git & Github",
+      authorname: "Hitesh Chaudhary",
+      ytlink: "https://www.youtube.com/watch?v=tz82ola3oy0", // Git & Github Tutorial
+      gfgLink: "https://www.geeksforgeeks.org/git-tutorial/",
+    },
+    {
+      imgurl: linux,
+      coursename: "Linux",
+      authorname: "ProgrammingKnowledge",
+      ytlink: "https://youtu.be/SjQmo5tJB4c?si=Al8VMbBhK8cJa7oB", // Linux Tutorial
+      gfgLink: "https://www.geeksforgeeks.org/linux-tutorial/",
+    },
+    {
+      imgurl: springboot,
+      coursename: "Springboot",
+      authorname: "Bouali Ali",
+      ytlink: "https://youtube.com/playlist?list=PL41m5U3u3wwkJXP69jYLzBnFoldbDr5FR&si=AOAKos8us7G82jSY", // Springboot Tutorial
+      gfgLink: "https://www.geeksforgeeks.org/spring-boot/",
+    },
+    {
+      imgurl:DSA,
+      coursename: "DSA",
+      authorname: "Striver",
+      ytlink: "https://youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&si=WGSVIR9QmjYhhoT_", //DSA Tutorial
+      gfgLink: "https://eprints.triatmamulya.ac.id/1694/1/Data%20Structures%20and%20Algorithms%20Made%20Easy_%20Data%20Structures%20and%20Algorithmic%20Puzzles.pdf",
+    },
+    {
+      imgurl: Kubernetes,
+      coursename: "Kubernetes",
+      authorname: "DevOps Directive",
+      ytlink: "https://youtu.be/2T86xAtR6Fo?si=IqrxK6e4aqccOKC_", // Kubernetes Tutorial
+      gfgLink: "https://www.geeksforgeeks.org/kubernetes-tutorial/",
+    },
+    {
+      imgurl: solid,
+      coursename: "Design Patterns & SOLID",
+      authorname: "Free Code Camp",
+      ytlink: "https://www.youtube.com/watch?v=rylaiB2uH2A", // Design Patterns & Solid Tutorial
+      gfgLink: "https://refactoring.guru/design-patterns/java",
+    },
+    {
+      imgurl: Docker,
+      coursename: "Docker",
+      authorname: "Ishaan Gupta",
+      ytlink: "https://youtu.be/31k6AtW-b3Y?si=o-R_VMARiLsUBHSz", // Docker Tutorial
+      gfgLink: "https://ishaangupta1201.medium.com/docker-beginner-to-expert-tutorial-68555aa3e544",
+    },
+    {
+      imgurl: Graphql,
+      coursename: "Graphql",
+      authorname: "Free Code Camp",
+      ytlink: "https://www.youtube.com/watch?v=5199E50O7SI", // Graphql Tutorial
+      gfgLink: "https://www.tutorialspoint.com/graphql/index.htm",
     },
     {
       imgurl: HTML,
